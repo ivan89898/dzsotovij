@@ -7,8 +7,8 @@ public class Main {
         } else {
             System.out.println("Не начислено бонусных рублей");
         }
-        // началькое количество рублей на текущем счёте клиента
-        double startingCount = 10.00;
+
+        double startingCount = 10.00; // началькое количество рублей на текущем счёте клиента
         System.out.println("Итоговый счёт:" + (startingCount + refill + refill * bonus) + " рублей");
 
     }
